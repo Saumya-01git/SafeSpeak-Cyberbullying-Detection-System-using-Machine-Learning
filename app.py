@@ -134,23 +134,13 @@ model_path = os.path.join(BASE_DIR, "saved_models.pkl")
 # LOAD OR TRAIN MODEL
 # ======================
 
-if os.path.exists(model_path):
+from model import load_and_prepare_data, train_models
 
-    data, vectorizer, log_model, nb_model, svm_model, rf_model = joblib.load(model_path)
+data, clean_text = load_and_prepare_data()
 
-else:
-    from model import load_and_prepare_data, train_models
+vectorizer, log_model, nb_model, svm_model, rf_model = train_models(data)
 
-    data, clean_text = load_and_prepare_data()
 
-    vectorizer, log_model, nb_model, svm_model, rf_model = train_models(data)
-
-    joblib.dump(
-        (data, vectorizer, log_model, nb_model, svm_model, rf_model),
-        model_path
-    )
-
-    
 
 # ======================
 # CLEAN FUNCTION
