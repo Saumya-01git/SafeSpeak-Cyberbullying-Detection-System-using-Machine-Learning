@@ -10,7 +10,7 @@ This project aims to promote safer online communication and help identify toxic 
 
 # 🚀 Live Demo
 
-🔗 https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/
+👉 [Click Here to Open SafeSpeak Web App](https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/)
 
 ---
 
