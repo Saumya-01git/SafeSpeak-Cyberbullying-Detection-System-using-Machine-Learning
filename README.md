@@ -15,7 +15,7 @@ This project aims to promote safer online communication and help identify toxic 
 The project is deployed using Streamlit Community Cloud.
 
 Live App:
-[https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/](https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/)
+https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/
 
 ---
 
