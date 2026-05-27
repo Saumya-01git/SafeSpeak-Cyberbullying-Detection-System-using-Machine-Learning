@@ -1,21 +1,16 @@
-````md
 # 🛡️ SafeSpeak – Cyberbullying Detection System using Machine Learning
 
-SafeSpeak is a Machine Learning based web application designed to detect cyberbullying text in real-time.  
+SafeSpeak is a Machine Learning based web application designed to detect cyberbullying text in real-time.
+
 The system analyzes user input and predicts whether the text contains cyberbullying or harmful language using Natural Language Processing (NLP) and Machine Learning techniques.
 
 This project aims to promote safer online communication and help identify toxic or abusive language on digital platforms.
 
 ---
 
----
+# 🚀 Live Demo
 
-# 🌐 Deployment
-
-The project is deployed using Streamlit Community Cloud.
-
-Live App:
-https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/
+👉 [Open SafeSpeak Web App](https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/)
 
 ---
 
@@ -60,7 +55,7 @@ The application follows these steps:
 ## Frontend
 - Streamlit
 
-## Backend / ML
+## Backend / Machine Learning
 - Python
 - Scikit-learn
 - NLP
@@ -68,31 +63,31 @@ The application follows these steps:
 ## Libraries
 - Pandas
 - NumPy
-- Pickle
 - Regex
+- Pickle
 
 ---
 
 # 🧪 Machine Learning Workflow
 
-### 1. Data Collection
+## 1. Data Collection
 Cyberbullying dataset collected for training the model.
 
-### 2. Data Preprocessing
+## 2. Data Preprocessing
 - Lowercasing
 - Removing special characters
 - Removing stopwords
 - Text cleaning
 
-### 3. Feature Extraction
+## 3. Feature Extraction
 Text converted into vectors using NLP techniques such as:
 - Count Vectorizer
 - TF-IDF
 
-### 4. Model Training
+## 4. Model Training
 Machine Learning model trained on processed data.
 
-### 5. Prediction
+## 5. Prediction
 User input text is transformed and passed into the trained model for prediction.
 
 ---
@@ -110,7 +105,7 @@ SafeSpeak-Cyberbullying-Detection-System-using-Machine-Learning
 ├── assets/
 ├── screenshots/
 └── README.md
-````
+```
 
 ---
 
@@ -124,7 +119,7 @@ git clone https://github.com/Saumya-01git/SafeSpeak-Cyberbullying-Detection-Syst
 
 ---
 
-## Step 2: Move to Project Folder
+## Step 2: Move into the Project Folder
 
 ```bash
 cd SafeSpeak-Cyberbullying-Detection-System-using-Machine-Learning
@@ -132,7 +127,7 @@ cd SafeSpeak-Cyberbullying-Detection-System-using-Machine-Learning
 
 ---
 
-## Step 3: Install Required Dependencies
+## Step 3: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -150,18 +145,18 @@ streamlit run app.py
 
 # 💻 Usage
 
-1. Open the web app
+1. Open the web application
 2. Enter any text message
-3. Click on Predict / Detect button
+3. Click on the Predict button
 4. View prediction result instantly
 
-Example:
+### Example Input
 
 ```text
-"You are useless and stupid"
+You are useless and stupid
 ```
 
-Prediction:
+### Prediction Result
 
 ```text
 Cyberbullying Detected
@@ -171,21 +166,21 @@ Cyberbullying Detected
 
 # 🎯 Project Objectives
 
-* Detect harmful online language
-* Promote safer digital communication
-* Apply NLP and Machine Learning concepts in real-world problems
-* Build an interactive ML web application
+- Detect harmful online language
+- Promote safer digital communication
+- Apply NLP and Machine Learning concepts to real-world problems
+- Build an interactive ML web application
 
 ---
 
 # 📈 Future Improvements
 
-🚀 User Authentication
-🚀 Multi-language Detection
-🚀 Voice-based Cyberbullying Detection
-🚀 Deep Learning Models (LSTM/BERT)
-🚀 Real-time Social Media Monitoring
-🚀 Dashboard Analytics
+🚀 User Authentication  
+🚀 Multi-language Support  
+🚀 Voice-based Cyberbullying Detection  
+🚀 Deep Learning Models (LSTM/BERT)  
+🚀 Real-time Social Media Monitoring  
+🚀 Dashboard Analytics  
 
 ---
 
@@ -193,17 +188,17 @@ Cyberbullying Detected
 
 The project is deployed using Streamlit Community Cloud.
 
-Live App:
-[https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/](https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/)
+🔗 Live App:  
+https://safespeak-cyberbullying-detection-system-using-machine-learnin.streamlit.app/
 
 ---
 
 # 👩‍💻 Author
 
-## Saumya 
+## Saumya
 
-GitHub:
-[https://github.com/Saumya-01git](https://github.com/Saumya-01git)
+GitHub:  
+https://github.com/Saumya-01git
 
 ---
 
@@ -211,13 +206,13 @@ GitHub:
 
 Through this project, the following concepts were learned:
 
-* Machine Learning Workflow
-* Natural Language Processing
-* Text Classification
-* Streamlit Deployment
-* Data Preprocessing
-* Model Integration
-* Real-world ML Application Development
+- Machine Learning Workflow
+- Natural Language Processing
+- Text Classification
+- Streamlit Deployment
+- Data Preprocessing
+- Model Integration
+- Real-world ML Application Development
 
 ---
 
@@ -230,6 +225,3 @@ If you found this project useful, consider giving it a ⭐ on GitHub.
 # 📜 License
 
 This project is created for educational and learning purposes.
-
-```
-```
